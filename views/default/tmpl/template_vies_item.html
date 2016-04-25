@@ -1,0 +1,13 @@
+<div id="row3a_{id}">
+    <div class="row">
+        <div class="row-content">
+            <label class="kolomregel">{nr}</label>
+            <select name="rubriek3a[{id}].landCode" id="rubriek3a_{id}_landCode" class="kolomlandcode">
+                <option value="{country}" selected="selected">{country}</option>
+            </select>
+            <input type="text" name="rubriek3a[{id}].nummer" id="rubriek3a_{id}_nummer" maxlength="12" value="{vatnumber}" class="text kolomnummer">
+            <span class="euro"><input type="text" name="rubriek3a[{id}].leveringBedrag" id="rubriek3a_{id}_leveringBedrag" maxlength="255" value="" class="text kolombedrag" maxlengte="11"></span>
+            <span class="euro"><input type="text" name="rubriek3a[{id}].dienstBedrag" id="rubriek3a_{id}_dienstBedrag" maxlength="255" value="{price}" class="text kolombedrag" maxlengte="11"></span>
+        </div>
+    </div>
+</div>

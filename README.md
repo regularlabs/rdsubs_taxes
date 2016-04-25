@@ -1,2 +1,2 @@
-# rdsubs_taxes
-Output of sales data to be used for (Dutch) tax returns
+# RD-Subscriptions Taxes
+Output of sales data from RD-Subscriptions to be used for (Dutch) tax returns
